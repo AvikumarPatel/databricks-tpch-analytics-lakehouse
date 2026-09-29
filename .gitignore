@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Databricks local configuration / state
+.databricks/
+.databrickscfg
+
+# Databricks workspace/archive exports
+*.dbc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark local artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Dashboard PDF exports may contain workspace-specific links or metadata
+dashboard/*.pdf
